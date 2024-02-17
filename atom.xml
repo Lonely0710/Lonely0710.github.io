@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lonely&#39;s Blog</title>
+  
+  <subtitle>一个不那么正经的杂话日记</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-02-17T12:38:57.524Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Lonely</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/posts/0.html"/>
+    <id>http://example.com/posts/0.html</id>
+    <published>2024-02-17T12:31:20.636Z</published>
+    <updated>2024-02-17T12:38:57.524Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: 奥奇传说开荒记录<br>date: 2024-02-17 20:31:20<br>tags:</p><h1 id="一个简单的自我介绍"><a href="#一个简单的自我介绍" class="headerlink" title="一个简单的自我介绍"></a>一个简单的自我介绍</h1><h3 id="sdhddj"><a href="#sdhddj" class="headerlink" title="sdhddj"></a>sdhddj</h3><pre><code class="c">include&lt;stdioh.h&gt;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;title: 奥奇传说开荒记录&lt;br&gt;date: 2024-02-17 20:31:20&lt;br&gt;tags:&lt;/p&gt;
+&lt;h1 id=&quot;一个简单的自我介绍&quot;&gt;&lt;a href=&quot;#一个简单的自我介绍&quot; class=&quot;headerlink&quot; title=&quot;一个简单的自我介</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
