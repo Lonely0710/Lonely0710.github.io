@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ylonely.cn/manifest.json</loc>
+    <loc>http://ylonely.cn/posts/3120f978.html</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://ylonely.cn/posts/3120f978.html</loc>
+    <loc>http://ylonely.cn/manifest.json</loc>
     
     <lastmod>2024-12-06</lastmod>
     
@@ -27,6 +27,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://ylonely.cn/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2024-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
