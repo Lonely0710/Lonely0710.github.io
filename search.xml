@@ -8,7 +8,7 @@
       <link href="/posts/3120f978.html"/>
       <url>/posts/3120f978.html</url>
       
-        <content type="html"><![CDATA[<p>#1 概述<br>#2 精灵配置<br>#3 具体过关<br>#4 总结</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h2 id="精灵配置"><a href="#精灵配置" class="headerlink" title="精灵配置"></a>精灵配置</h2><h2 id="具体过关"><a href="#具体过关" class="headerlink" title="具体过关"></a>具体过关</h2><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2>]]></content>
       
       
       
@@ -17,6 +17,17 @@
     
   
   
+    
+    
+    <entry>
+      <title></title>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"Lonely`Blog","short_name":"Lonely","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+      
+    </entry>
+    
     
   
 </search>
