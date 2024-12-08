@@ -2,18 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ylonely.cn/posts/3120f978.html</loc>
+    <loc>https://blog.ylonely.cn/manifest.json</loc>
     
-    <lastmod>2024-12-06</lastmod>
+    <lastmod>2024-12-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/manifest.json</loc>
+    <loc>https://blog.ylonely.cn/posts/f0b34752.html</loc>
     
-    <lastmod>2024-12-06</lastmod>
+    <lastmod>2024-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/3120f978.html</loc>
+    
+    <lastmod>2024-12-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,15 +31,22 @@
 
   <url>
     <loc>https://blog.ylonely.cn/</loc>
-    <lastmod>2024-12-06</lastmod>
+    <lastmod>2024-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://blog.ylonely.cn/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-12-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ylonely.cn/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-12-06</lastmod>
+    <lastmod>2024-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
