@@ -6,7 +6,7 @@
   <link href="https://blog.ylonely.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ylonely.cn/"/>
-  <updated>2024-12-09T19:44:50.700Z</updated>
+  <updated>2024-12-10T12:26:17.401Z</updated>
   <id>https://blog.ylonely.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ylonely.cn/posts/f0b34752.html"/>
     <id>https://blog.ylonely.cn/posts/f0b34752.html</id>
     <published>2024-12-08T00:00:00.000Z</published>
-    <updated>2024-12-09T19:44:50.700Z</updated>
+    <updated>2024-12-10T12:26:17.401Z</updated>
     
     <content type="html"><![CDATA[<div class="tip home"><p>本站的一个简短介绍，跟之前学习记录的README一样，复制粘贴一下。</p></div><h1 id="一份不算简短的介绍-💻"><a href="#一份不算简短的介绍-💻" class="headerlink" title="一份不算简短的介绍 💻"></a>一份不算简短的介绍 💻</h1><p>这是一个记录我本科期间学习经历的仓库，主要用于督促自己记录平时的学习进展和遇到的技术问题，内容涵盖学术学习、技术拓展和项目实践等方面。</p><h2 id="关于作者-👨‍💻"><a href="#关于作者-👨‍💻" class="headerlink" title="关于作者 👨‍💻"></a>关于作者 👨‍💻</h2><ul><li><strong>专业背景</strong>：计算机科学与技术专业 🎓</li><li><strong>当前年级</strong>：大三 🏫 截止2024.11.2</li><li><strong>学习方向</strong>：本科阶段主要学习了操作系统、编译原理，并涉及机器学习和深度学习的入门</li><li><strong>使用生态</strong>：苹果生态使用者 ，自学了 Vue 和 React 框架，同时对 Swift 有基础了解</li><li><strong>AI学习进度</strong>：炼丹入门中，对一些复杂的 ML、DL 还不太熟悉，目前在提升代码复现能力 🤖</li></ul><h2 id="学习记录的目标-📝"><a href="#学习记录的目标-📝" class="headerlink" title="学习记录的目标 📝"></a>学习记录的目标 📝</h2><p>本项目主要记录本科期间的学习过程，涵盖以下内容：</p><ul><li><p><strong>本科课程学习</strong> 📘：操作系统、编译原理、离散数学、数据结构、计算机组成原理等。主要包含相关 Lab 代码及知识点记录。</p><ul><li>本学期会主要上传操作系统和编译原理的内容，一些实验代码详见<a href="https://github.com/Lonely0710/CS_MasterLearning/tree/master">这里</a>。</li><li>后续在准备夏令营时，会上传离散数学、数据结构、计组的复习知识点。</li><li>另外，学校的《虚拟化与云计算》课程预计也会在这里记录，包含环境配置的过程、网络搜集的资料以及自己的一些踩坑笔记（看空闲时间）。</li></ul></li><li><p><strong>机器学习与深度学习笔记</strong> 📊：记录 ML 和 DL 的学习笔记，或许会包含代码复现的过程。</p></li><li><p><strong>技术拓展</strong> 💡：学习 Vue、React 框架和 Swift 编程。内容包括：</p><ul><li>一些简单的小项目的自我搭建过程 🛠️</li><li>对开源项目的复刻与修改，以提升实践能力</li></ul></li><li><p><strong>算法学习</strong> 🔍：预计在大三寒假阶段，准备各大学校的机考内容，重点记录算法知识。</p><ul><li>包括常规题型复习 📐</li><li>手撕神经网络等代码训练 💻</li></ul></li></ul><h2 id="使用说明-📂"><a href="#使用说明-📂" class="headerlink" title="使用说明 📂"></a>使用说明 📂</h2><p>本仓库的内容持续更新，随着学习进度和技术掌握的变化，新的笔记和代码会不断加入。部分记录会基于自己遇到的错误和问题进行详细的说明，便于后续复习和查阅。</p><h2 id="联系方式-📬"><a href="#联系方式-📬" class="headerlink" title="联系方式 📬"></a>联系方式 📬</h2><ul><li>GitHub: <a href="https://github.com/Lonely0710">Lonely0710</a></li><li>Google 邮箱: lingsou43@gmail.com</li></ul><p>希望在记录中成长，欢迎共同探讨与交流！</p>]]></content>
     
@@ -40,7 +40,7 @@
     <link href="https://blog.ylonely.cn/posts/3120f978.html"/>
     <id>https://blog.ylonely.cn/posts/3120f978.html</id>
     <published>2024-02-17T00:00:00.000Z</published>
-    <updated>2024-12-09T19:44:50.700Z</updated>
+    <updated>2024-12-10T12:26:17.401Z</updated>
     
     <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><div class="tip "><p>外挂标签使用：<a href="https://leviathan520.github.io/posts/615e2dec">参考leviathan520</a></p></div><h2 id="精灵配置"><a href="#精灵配置" class="headerlink" title="精灵配置"></a>精灵配置</h2><div class="tip "><p>王时</p></div><h2 id="具体过关"><a href="#具体过关" class="headerlink" title="具体过关"></a>具体过关</h2><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    初始化自定义神经网络</span></span><br><span class="line"><span class="string">    :param input_size: 输入特征数</span></span><br><span class="line"><span class="string">    :param hidden_sizes: 隐藏层神经元数列表</span></span><br><span class="line"><span class="string">    :param output_size: 输出特征数</span></span><br><span class="line"><span class="string">    :param dropout_rate: Dropout 比例</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="comment"># 模型配置</span></span><br><span class="line">input_size = <span class="number">29</span></span><br><span class="line">hidden_sizes = [<span class="number">128</span>, <span class="number">64</span>]</span><br><span class="line">output_size = <span class="number">1</span></span><br><span class="line">dropout_rate = <span class="number">0.5</span></span><br><span class="line">learning_rate = <span class="number">0.01</span></span><br><span class="line">num_epochs = <span class="number">10</span></span><br></pre></td></tr></table></figure>]]></content>
     
