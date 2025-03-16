@@ -2,54 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.ylonely.cn/manifest.json</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/package.json</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/waifu-tips.json</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/music/index.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/notice/index.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ylonely.cn/photos/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,25 +13,7 @@
   <url>
     <loc>https://blog.ylonely.cn/tags/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/demo.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/login.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +22,7 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/Digimon/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +31,7 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/Traveling/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,16 +40,7 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/food/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/photos/friends/index.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +49,16 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/life/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/photos/friends/index.html</loc>
+    
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,16 +67,7 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/wallpaper/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/photos/friends/ccw/index.html</loc>
-    
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -148,7 +76,7 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/friends/lzw/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,7 +85,70 @@
   <url>
     <loc>https://blog.ylonely.cn/photos/friends/qxd/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/manifest.json</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/waifu-tips.json</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/music/index.html</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/notice/index.html</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/package.json</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/demo.html</loc>
+    
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/login.html</loc>
+    
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,7 +157,7 @@
   <url>
     <loc>https://blog.ylonely.cn/live2d-widget-master/README.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -175,7 +166,7 @@
   <url>
     <loc>https://blog.ylonely.cn/posts/3120f978.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -184,7 +175,7 @@
   <url>
     <loc>https://blog.ylonely.cn/about/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -193,7 +184,7 @@
   <url>
     <loc>https://blog.ylonely.cn/categories/index.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,7 +193,97 @@
   <url>
     <loc>https://blog.ylonely.cn/posts/f0b34752.html</loc>
     
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/1edd00d0.html</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/f9a416d.html</loc>
+    
+    <lastmod>2025-03-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/243e3fb5.html</loc>
+    
+    <lastmod>2025-02-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/dcdb99ff.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/f29eefae.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/68232fae.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/4121804.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/c245259.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/c8752ccd.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/posts/4b9c17ec.html</loc>
+    
+    <lastmod>2025-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -211,7 +292,7 @@
 
   <url>
     <loc>https://blog.ylonely.cn/</loc>
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,14 +300,84 @@
   
   <url>
     <loc>https://blog.ylonely.cn/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.ylonely.cn/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-12-10</lastmod>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/study/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/git/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/study/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/Neovim/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/linux/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/terminal/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/linux-install/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/homebrew/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/oh-my-zsh/</loc>
+    <lastmod>2025-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/tags/linux-tools/</loc>
+    <lastmod>2025-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
