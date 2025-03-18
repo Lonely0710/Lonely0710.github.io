@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/photos/life/index.html</loc>
-    
-    <lastmod>2025-03-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ylonely.cn/photos/wallpaper/index.html</loc>
     
     <lastmod>2025-03-18</lastmod>
@@ -30,15 +21,6 @@
   
   <url>
     <loc>https://blog.ylonely.cn/manifest.json</loc>
-    
-    <lastmod>2025-03-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/waifu-tips.json</loc>
     
     <lastmod>2025-03-18</lastmod>
     
@@ -110,6 +92,15 @@
   </url>
   
   <url>
+    <loc>https://blog.ylonely.cn/photos/life/index.html</loc>
+    
+    <lastmod>2025-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ylonely.cn/photos/friends/lzw/index.html</loc>
     
     <lastmod>2025-03-18</lastmod>
@@ -129,6 +120,15 @@
   
   <url>
     <loc>https://blog.ylonely.cn/live2d-widget-master/package.json</loc>
+    
+    <lastmod>2025-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/waifu-tips.json</loc>
     
     <lastmod>2025-03-18</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/categories/index.html</loc>
+    <loc>https://blog.ylonely.cn/posts/3120f978.html</loc>
     
     <lastmod>2025-03-18</lastmod>
     
@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/posts/f0b34752.html</loc>
+    <loc>https://blog.ylonely.cn/categories/index.html</loc>
     
     <lastmod>2025-03-18</lastmod>
     
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/posts/3120f978.html</loc>
+    <loc>https://blog.ylonely.cn/posts/f0b34752.html</loc>
     
     <lastmod>2025-03-18</lastmod>
     
