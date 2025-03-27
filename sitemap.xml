@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ylonely.cn/tags/index.html</loc>
+    
+    <lastmod>2025-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/notice/index.html</loc>
+    
+    <lastmod>2025-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ylonely.cn/photos/index.html</loc>
     
     <lastmod>2025-03-27</lastmod>
@@ -11,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/tags/index.html</loc>
+    <loc>https://blog.ylonely.cn/photos/Digimon/index.html</loc>
+    
+    <lastmod>2025-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ylonely.cn/photos/Traveling/index.html</loc>
     
     <lastmod>2025-03-27</lastmod>
     
@@ -83,6 +110,15 @@
   </url>
   
   <url>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/package.json</loc>
+    
+    <lastmod>2025-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ylonely.cn/live2d-widget-master/waifu-tips.json</loc>
     
     <lastmod>2025-03-27</lastmod>
@@ -101,34 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ylonely.cn/notice/index.html</loc>
-    
-    <lastmod>2025-03-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/photos/Digimon/index.html</loc>
-    
-    <lastmod>2025-03-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/photos/Traveling/index.html</loc>
-    
-    <lastmod>2025-03-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/package.json</loc>
+    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/login.html</loc>
     
     <lastmod>2025-03-27</lastmod>
     
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://blog.ylonely.cn/live2d-widget-master/demo/demo.html</loc>
-    
-    <lastmod>2025-03-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ylonely.cn/live2d-widget-master/demo/login.html</loc>
     
     <lastmod>2025-03-27</lastmod>
     
