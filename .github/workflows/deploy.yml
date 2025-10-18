@@ -2,16 +2,16 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ portfolio ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout gh-pages branch
+      - name: Checkout portfolio branch
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: portfolio
           fetch-depth: 0
         
       - name: Setup Node.js
