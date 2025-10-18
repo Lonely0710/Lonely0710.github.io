@@ -1,0 +1,1 @@
+import{z as a}from"./fancybox.DevLbmIQ.js";a.bind('[data-fancybox="projects"]',{hideScrollbar:!1});
