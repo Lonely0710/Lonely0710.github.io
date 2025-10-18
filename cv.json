@@ -1,0 +1,588 @@
+{
+  "analyticsCode": "",
+  "pageLayout": "two",
+  "basics": {
+    "name": "MiraHikari",
+    "label": "全栈开发工程师",
+    "image": "/avatar.png",
+    "email": "mirahikari@gcxstudio.cn",
+    "url": "https://www.gcxstudio.cn",
+    "summary": "15 岁的全栈开发者，主要使用 TypeScript 和 JavaScript 进行开发。获得华为开发者年度盛典奖项，具备丰富的 Web 开发经验和项目管理能力。",
+    "theme": "red",
+    "location": {
+      "address": "南昌",
+      "city": "江西",
+      "countryCode": "CN",
+      "region": "中国"
+    },
+    "profiles": [
+      {
+        "network": "Bilibili",
+        "icon": "ri:bilibili-line",
+        "username": "MiraHikari",
+        "url": "https://space.bilibili.com/480025691"
+      },
+      {
+        "network": "QQ",
+        "icon": "ri:qq-fill",
+        "username": "Gong_cx",
+        "url": "https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3175992523"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "username": "MiraHikari",
+        "url": "https://github.com/MiraHikari"
+      }
+    ],
+    "beian": {
+      "mint": "赣ICP备2021005460号-1",
+      "police": "赣公网安备 36010302000349号"
+    },
+    "about": {
+      "personalInfo": [
+        {
+          "emoji": "🎂",
+          "label": "年龄",
+          "value": "15岁",
+          "color": "blue"
+        },
+        {
+          "emoji": "📍",
+          "label": "地点",
+          "value": "江西南昌",
+          "color": "green"
+        },
+        {
+          "emoji": "🎓",
+          "label": "学历",
+          "value": "在读学生",
+          "color": "purple"
+        },
+        {
+          "emoji": "💼",
+          "label": "经验",
+          "value": "3+ 年开发",
+          "color": "orange"
+        }
+      ],
+      "traits": [
+        {
+          "emoji": "🚀",
+          "text": "快速学习新技术",
+          "color": "blue"
+        },
+        {
+          "emoji": "🎨",
+          "text": "注重用户体验设计",
+          "color": "pink"
+        },
+        {
+          "emoji": "⚡",
+          "text": "高效的问题解决能力",
+          "color": "yellow"
+        },
+        {
+          "emoji": "🤝",
+          "text": "优秀的团队协作精神",
+          "color": "green"
+        }
+      ],
+      "highlights": [
+        {
+          "emoji": "🏆",
+          "text": "华为开发者年度盛典获奖者",
+          "color": "gold"
+        },
+        {
+          "emoji": "📈",
+          "text": "1000+ 社区用户产品开发者",
+          "color": "blue"
+        },
+        {
+          "emoji": "💡",
+          "text": "开源项目贡献者",
+          "color": "green"
+        },
+        {
+          "emoji": "🎯",
+          "text": "全栈技术专家",
+          "color": "purple"
+        }
+      ],
+      "quote": {
+        "text": "代码如诗，技术如画。用心创造，用爱编程。",
+        "emoji": "💻",
+        "values": [
+          {
+            "emoji": "🎨",
+            "label": "创造",
+            "color": "pink"
+          },
+          {
+            "emoji": "💡",
+            "label": "创新",
+            "color": "yellow"
+          },
+          {
+            "emoji": "🎯",
+            "label": "专注",
+            "color": "blue"
+          },
+          {
+            "emoji": "🚀",
+            "label": "进步",
+            "color": "green"
+          }
+        ]
+      }
+    }
+  },
+  "images": {
+    "intro": "摄影是光影的艺术，图像是记忆的轮廓。",
+    "list": [
+      {
+        "image": "https://i0.hdslb.com/bfs/article/6720a7355fd11b9666e2716cadf04e45480025691.jpg@90q_1e_1c.webp",
+        "alt": "南昌夕阳",
+        "desc": "南昌晴天拍摄。2024.10.05"
+      },
+      {
+        "image": "https://i0.hdslb.com/bfs/article/82f680f56532d942f74d86801abf49ea480025691.jpg@90q_1e_1c.webp",
+        "alt": "我的猫咪",
+        "desc": "哈基米"
+      },
+      {
+        "image": "https://i0.hdslb.com/bfs/article/14e6ae3c368b0eddeeb2b5c338239486480025691.jpg@90q_1e_1c.webp",
+        "alt": "表情符号",
+        "desc": "确实如此"
+      },
+      {
+        "image": "https://i0.hdslb.com/bfs/openplatform/27518bea56d2d48dd7eb04216dabd3601fae630d.png@1e_1c.webp",
+        "alt": "AI 太好用了你知道吗",
+        "desc": "AI 太好用了你知道吗？"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "南昌中学",
+      "url": "",
+      "area": "普通学生",
+      "studyType": "全日制学生",
+      "startDate": "2025-9-01",
+      "endDate": null
+    },
+    {
+      "institution": "南昌第二十四中学",
+      "url": "",
+      "area": "普通学生",
+      "studyType": "全日制学生",
+      "startDate": "2021-9-01",
+      "endDate": "2025-06-17"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "TCCP - 高级云架构工程师",
+      "date": "2023-05-01",
+      "url": "",
+      "issuer": "Tencent Cloud"
+    }
+  ],
+  "work": [
+    {
+      "name": "Sgguo Development Team",
+      "position": "全栈开发工程师 & 核心设计师",
+      "location_type": "远程",
+      "location": "CN",
+      "url": "https://github.com/Sgguo-Development-Team",
+      "startDate": "2022-06-01",
+      "endDate": null,
+      "summary": "开发高可用性全栈项目，负责系统架构设计和技术选型，带领团队完成多个重要项目的开发和上线。作为星闪工具箱项目的核心开发者和设计师，获得华为开发者年度盛典卓越社区价值贡献奖。",
+      "highlights": [
+        "🏆 星闪工具箱项目获得2024年华为开发者年度盛典卓越社区价值贡献奖",
+        "📈 星闪工具箱累计1000+社区用户，50+开源项目生态支持",
+        "⚡ 增强内部工作流程效率30%，通过自动化工具和流程优化显著提升团队生产力",
+        "🎯 主导数个关键项目的技术架构设计，提升系统整体性能和稳定性"
+      ],
+      "responsibilities": [
+        "作为星闪工具箱核心开发者，使用 Rust 和 Tauri 构建跨平台桌面应用。",
+        "负责项目UI/UX设计，打造直观易用的图形化界面，实现傍瓜式操作体验。",
+        "集成海思官方工具和开源方案，实现双剑合璧的烧录解决方案。",
+        "使用 Node.js 和 Golang 设计开发高性能后端服务，支持高并发访问。",
+        "负责数据库设计和优化，确保数据安全和访问效率。"
+      ],
+      "achievements": [
+        "星闪工具箱项目获得华为官方认可，荣获卓越社区价值贡献奖。",
+        "设计并实现一站式串口通信解决方案，支持固件管理、设备调试等多功能。",
+        "实现云端固件商店，支持开发者上传和用户一键下载，构建开源生态。",
+        "设计并实现微服务架构，提升系统可扩展性和维护性。",
+        "实现了云盘和验证码系统，提升用户体验和数据安全性。"
+      ],
+      "skills": {
+        "PHP": "simple-icons:php",
+        "Node": "ri:nodejs-line",
+        "Golang": "simple-icons:go",
+        "Next.js": "ri:nextjs-fill",
+        "React": "mdi:react",
+        "SQL": "simple-icons:mysql",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "NestJS": "simple-icons:nestjs",
+        "Vue": "mdi:vuejs"
+      }
+    },
+    {
+      "name": "Riddle Town Team",
+      "position": "全栈开发工程师",
+      "location_type": "远程",
+      "location": "CN",
+      "url": "https://rth2.gcxstudio.cn",
+      "startDate": "2023-01-01",
+      "endDate": "2024-02-11",
+      "summary": "负责页面设计和账户系统开发，主导前端架构设计和用户体验优化。参与产品需求分析和技术方案制定，确保项目按时交付。",
+      "highlights": [
+        "独立完成95%的项目开发工作，包括前端页面、后端接口和数据库设计。",
+        "成功建立一套完整的用户管理和游戏系统，吸引超过1000名用户参与。"
+      ],
+      "responsibilities": [
+        "设计并开发响应式页面，确保在不同设备上的良好用户体验。",
+        "优化前后端数据交互，提升页面加载速度和用户体验。",
+        "实现用户权限管理和数据安全防护机制。"
+      ],
+      "achievements": [
+        "建立项目文档和部署流程，确保项目可维护性和扩展性。",
+        "实现了类 Windows 风格的用户界面，提升用户操作体验。"
+      ],
+      "skills": {
+        "HTML": "simple-icons:html5",
+        "CSS": "ri:css3-fill",
+        "JavaScript": "simple-icons:javascript",
+        "TypeScript": "simple-icons:typescript",
+        "Vite": "simple-icons:vite",
+        "Node": "ri:nodejs-line",
+        "Docker": "mdi:docker",
+        "WordPress": "ri:wordpress-fill",
+        "Astro": "simple-icons:astro",
+        "SQL": "simple-icons:mysql",
+        "Tailwind": "mdi:tailwind",
+        "React": "mdi:react",
+        "GitHub": "mdi:github",
+        "Git": "mdi:git"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "中级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端"]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "中级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "响应式设计"]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "专家级",
+      "category": "核心技术",
+      "keywords": ["Web开发", "前端", "后端", "全栈"]
+    },
+    {
+      "name": "Tailwind",
+      "icon": "mdi:tailwind",
+      "level": "中级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "CSS框架", "响应式设计"]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "专家级",
+      "category": "核心技术",
+      "keywords": ["Web开发", "前端", "后端", "JavaScript超集"]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "中级",
+      "category": "后端技术",
+      "keywords": ["Web开发", "后端", "JavaScript", "服务器"]
+    },
+    {
+      "name": "SQL",
+      "icon": "simple-icons:mysql",
+      "level": "中级",
+      "category": "后端技术",
+      "keywords": ["数据库", "SQL", "数据存储", "后端"]
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "中级",
+      "category": "后端技术",
+      "keywords": ["数据库", "文件", "数据存储", "后端"]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["版本控制", "协作", "源代码"]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "专家级",
+      "category": "工具平台",
+      "keywords": ["版本控制", "协作", "源代码", "Git"]
+    },
+    {
+      "name": "Next.js",
+      "icon": "ri:nextjs-line",
+      "level": "中级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "React框架", "SSR", "静态生成"]
+    },
+    {
+      "name": "React",
+      "icon": "mdi:react",
+      "level": "专家级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "JavaScript库", "UI"]
+    },
+    {
+      "name": "Vue",
+      "icon": "mdi:vuejs",
+      "level": "中级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "JavaScript库", "UI"]
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["虚拟环境", "后端"]
+    },
+    {
+      "name": "NestJS",
+      "icon": "simple-icons:nestjs",
+      "level": "中级",
+      "category": "后端技术",
+      "keywords": ["Web开发", "后端", "IOC"]
+    },
+    {
+      "name": "Vite",
+      "icon": "simple-icons:vite",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["Web开发", "前端", "构建工具"]
+    },
+    {
+      "name": "WordPress",
+      "icon": "ri:wordpress-fill",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["PHP", "全栈", "前端"]
+    },
+    {
+      "name": "Golang",
+      "icon": "simple-icons:go",
+      "level": "初级",
+      "category": "核心技术",
+      "keywords": ["后端", "云服务"]
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "专家级",
+      "category": "前端技术",
+      "keywords": ["Web开发", "前端", "SSR", "静态生成", "多主题"]
+    },
+    {
+      "name": "PHP",
+      "icon": "simple-icons:php",
+      "level": "中级",
+      "category": "核心技术",
+      "keywords": ["Web开发", "后端", "全栈"]
+    },
+    {
+      "name": "Nginx",
+      "icon": "simple-icons:nginx",
+      "level": "中级",
+      "category": "后端技术",
+      "keywords": ["Web开发", "后端", "Web服务器"]
+    },
+    {
+      "name": "Tauri",
+      "icon": "simple-icons:tauri",
+      "level": "中级",
+      "category": "其他技术",
+      "keywords": ["桌面应用", "Rust", "Web视图", "跨平台"]
+    },
+    {
+      "name": "Rust",
+      "icon": "simple-icons:rust",
+      "level": "中级",
+      "category": "核心技术",
+      "keywords": ["桌面应用", "Web视图", "系统编程", "高性能"]
+    },
+    {
+      "name": "Socket.IO",
+      "icon": "simple-icons:socketdotio",
+      "level": "初级",
+      "category": "后端技术",
+      "keywords": ["实时通信", "Websocket"]
+    },
+    {
+      "name": "Electron",
+      "icon": "simple-icons:electron",
+      "level": "初级",
+      "category": "其他技术",
+      "keywords": ["桌面应用", "Web视图"]
+    },
+    {
+      "name": "Shell",
+      "icon": "simple-icons:shell",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["脚本", "自动化"]
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["OS", "脚本", "自动化"]
+    },
+    {
+      "name": "Vercel",
+      "icon": "simple-icons:vercel",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["无服务器", "静态站点托管"]
+    },
+    {
+      "name": "Netlify",
+      "icon": "simple-icons:netlify",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["无服务器", "静态站点托管"]
+    },
+    {
+      "name": "Tencent Cloud",
+      "icon": "simple-icons:tencentqq",
+      "level": "中级",
+      "category": "工具平台",
+      "keywords": ["云服务"]
+    },
+    {
+      "name": "Cloudflare Edge Functions",
+      "icon": "simple-icons:cloudflare",
+      "level": "专家级",
+      "category": "工具平台",
+      "keywords": ["无服务器", "边缘计算"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "中文",
+      "fluency": "母语"
+    },
+    {
+      "language": "英语",
+      "fluency": "中级"
+    }
+  ],
+  "interests": [
+    {
+      "name": "技术",
+      "keywords": ["AI", "Blockchain"]
+    }
+  ],
+  "references": [
+    {
+      "name": "MiraHikari",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "星闪工具箱 (NearLink Toolbox)",
+      "image": {
+        "url": "https://i0.hdslb.com/bfs/openplatform/498f86fac03393b2f8c0b26cd95f0e88962e8a7c.webp",
+        "position": "container"
+      },
+      "isActive": true,
+      "description": "一站式串口通信解决方案，获得华为开发者年度盛典卓越社区价值贡献奖的开源项目",
+      "highlights": [
+        "🏆 获得2024年华为开发者年度盛典卓越社区价值贡献奖",
+        "🚀 基于 Rust 和 Tauri 构建，提供卓越性能和跨平台支持",
+        "⚡ 集成海思官方工具和开源 ws63flash，双剑合璧的烧录方案",
+        "�  1000+ 社区用户，50+ 开源项目生态支持",
+        "🎯 傻瓜式操作，图形化界面让烧录变得简单直观"
+      ],
+      "url": "https://nearlink.sgguo.com/",
+      "github": "https://github.com/Sgguo-Development-Team"
+    },
+    {
+      "name": "Portfolio CV",
+      "image": {
+        "url": "https://i0.hdslb.com/bfs/openplatform/e49d4b93b2aaec50944947d36f5cf545a2718200.jpg@1e_1c.webp",
+        "position": "container"
+      },
+      "isActive": true,
+      "description": "基于 Astro 构建的个人简历项目，完全由个人独立开发",
+      "highlights": [
+        "🎨 支持多种主题色彩（红、蓝、绿、赛博朋克、粉色）",
+        "📱 完全响应式设计，适配各种设备尺寸",
+        "⚡ 基于 Astro 构建，性能卓越，SEO 友好",
+        "🔧 通过 JSON 配置文件轻松自定义内容",
+        "💻 个人独立设计开发，完全开源免费"
+      ],
+      "url": "https://www.gcxstudio.cn",
+      "github": "https://github.com/MiraHikari/portfolio"
+    },
+    {
+      "name": "Cloudflare Vmail",
+      "image": {
+        "url": "https://i0.hdslb.com/bfs/article/985e2caa8266dee4b9861ee6a341886d480025691.png@1e_1c.webp",
+        "position": "container",
+        "dark": "https://i0.hdslb.com/bfs/article/4d0bf8a784d22e54e3e61763c361c9ef480025691.png@100q_1e_1c.webp"
+      },
+      "isActive": true,
+      "description": "一个开源的临时邮箱工具，完全基于 Cloudflare。灵感来自 oiov/vmail",
+      "highlights": [
+        "🎯 隐私友好，无需注册，开箱即用",
+        "✨ 支持保存密码和找回邮箱地址",
+        "😄 支持多个域名后缀",
+        "🚀 100% 开源，完全基于 Cloudflare。"
+      ],
+      "url": "https://mirahikari.xyz",
+      "github": "https://github.com/MiraHikari/cloudflare-vmail"
+    },
+    {
+      "name": "Riddle Town Hunt 2",
+      "image": {
+        "url": "https://i0.hdslb.com/bfs/openplatform/02bd8d56f7f6c3dc6c59efbfba460958269e57b5.png@1e_1c.webp",
+        "position": "background"
+      },
+      "isActive": false,
+      "description": "以 Puzzle Hunt 形式举办的公开解密活动。",
+      "highlights": [
+        "👌 超过1000人参与，系统运行正常",
+        "😮‍ 使用无头 CMS：WordPress 存储和管理内容，动态渲染页面",
+        "😊 类 Windows 界面",
+        "💕 基于 Astro 构建"
+      ],
+      "url": "https://rth2.gcxstudio.cn/"
+    }
+  ]
+}
