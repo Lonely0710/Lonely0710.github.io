@@ -12,7 +12,7 @@ draft: false
 pin: 0
 toc: true
 lang: ''
-abbrlink: ''
+abbrlink: 'homebrew'
 ---
 ![_image.png](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162213220.png)
 

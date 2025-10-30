@@ -13,7 +13,7 @@ draft: false
 pin: 0
 toc: true
 lang: ''
-abbrlink: ''
+abbrlink: 'linux-server'
 ---
 # 1. 基本信息
 :::note[info]

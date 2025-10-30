@@ -12,7 +12,7 @@ draft: false
 pin: 0
 toc: true
 lang: ''
-abbrlink: ''
+abbrlink: 'oh-my-zsh'
 ---
 # 1 说明
 此前在 `macOS` 上的 `iTerm2` 就一直用的 **oh-my-zsh** + [powerlevel10k](https://github.com/romkatv/powerlevel10k).

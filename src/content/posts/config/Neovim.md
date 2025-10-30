@@ -12,7 +12,7 @@ draft: false
 pin: 0
 toc: true
 lang: ''
-abbrlink: ''
+abbrlink: 'neovim'
 ---
 参考视频：[自从用了Neovim 鼠标我已经扔了]( https://www.bilibili.com/video/BV1TJCvYFE2T/?share_source=copy_web&vd_source=bb345d1b6d774cfe2e8d6229f474eb57)
 ![image.png|400](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202502092344282.png)
