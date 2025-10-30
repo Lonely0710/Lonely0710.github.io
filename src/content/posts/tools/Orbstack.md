@@ -22,3 +22,16 @@ abbrlink: 'orbstack'
 
 ## Containers
 拉取的一个 `Ubuntu` 的 demo 来演示。
+```shell
+docker pull [Repository Name] # Repository Name
+```
+
+![Containers](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162131844.png)
+
+## Machines
+```shell
+orb create arch # orb create "OS"
+```
+创建 `arch linux` & `ubuntu` 来模拟通信。
+
+![Machines](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162132741.png)
