@@ -9,7 +9,7 @@ tags:
   - Jpop
   - ヨルシカ
 draft: false
-pin: 0
+pin: 2
 toc: true
 lang: zh
 abbrlink: yorshika-24-gense
