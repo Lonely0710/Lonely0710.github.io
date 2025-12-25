@@ -107,7 +107,7 @@ return ResearchIcon
         </div>
 
         {/* desktop post time */}
-        <div class="hidden text-3.65 font-time lg:(ml-2.5 inline)">
+        <div class={`hidden text-3.65 font-time ${isHome ? 'lg:block lg:mt-1' : 'lg:ml-2.5 lg:inline'}`}>
           <PostDate
             date={post.data.published}
           />
