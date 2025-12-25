@@ -29,7 +29,7 @@ lang: zh
 - [仓库主页](https://github.com/Lonely0710)
 - [本科课程设计与实验汇总](https://github.com/Lonely0710/CS-Undergrad-Labs)
 
-如果你想交流、讨论，欢迎通过[邮件](lingsou43@gmail.com)联系我。我很乐意结识来自不同领域的朋友，看到邮件后会尽量第一时间回复。
+如果你想交流、讨论，欢迎通过[邮件](lingsou43@gmail.com)联系我。Feel free to contact me~
 
 > 在学习和写代码之外，热衷Jpop → 常听：
 > 
