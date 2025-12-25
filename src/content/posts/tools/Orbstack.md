@@ -1,18 +1,19 @@
 ---
-title: Orbstack使用
+title: Orbstack | Use Recording
 published: 2025-10-30T07:45:51.389Z
 description: ''
-abstract: 'Orbstack学习使用记录。'
+abstract: 'Orbstack 学习使用小记'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503170029023.png'
-updated: ''
+updated: 2025-12-26T02:56:03.666Z
 tags:
+  - Recording
   - Linux
   - Orbstack
   - Tools
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'orbstack'
 ---
 按照[参考教程](https://www.bilibili.com/video/BV1fj411k7oa/?share_source=copy_web&vd_source=bb345d1b6d774cfe2e8d6229f474eb57)目前进度：

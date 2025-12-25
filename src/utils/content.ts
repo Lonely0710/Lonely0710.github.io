@@ -201,6 +201,23 @@ async function _getAllTags(lang?: string) {
 export const getAllTags = memoize(_getAllTags)
 
 /**
+ * Get all tags with their post count
+ *
+ * @param lang The language code to filter by, defaults to site's default language
+ * @returns Array of tags with count, sorted by popularity
+ */
+async function _getAllTagsWithCount(lang?: string) {
+  const tagMap = await getPostsGroupByTags(lang)
+  const tagsWithCount = Array.from(tagMap.entries())
+    .map(([name, posts]) => ({ name, count: posts.length }))
+
+  tagsWithCount.sort((a, b) => b.count - a.count)
+  return tagsWithCount
+}
+
+export const getAllTagsWithCount = memoize(_getAllTagsWithCount)
+
+/**
  * Get all posts that contain a specific tag
  *
  * @param tag The tag name to filter posts by

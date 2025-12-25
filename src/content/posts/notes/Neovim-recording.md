@@ -1,17 +1,17 @@
 ---
-title: Neovim记录
+title: Neovim | Learning Recording
 published: 2025-10-30T06:59:30.715Z
 description: ''
-abstract: 'Neovim学习记录。'
+abstract: 'Neovim 学习记录'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162327916.png'
 updated: ''
 tags:
-  - Note
+  - Recording
   - Neovim
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: ''
 ---
 

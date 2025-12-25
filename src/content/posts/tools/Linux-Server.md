@@ -1,18 +1,19 @@
 ---
-title: Linux Server使用
+title: Linux Server | Config Archive
 published: 2025-10-30T07:48:45.398Z
 description: ''
-abstract: '服务器远程连接配置。'
+abstract: '服务器 ssh 配置'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503170005913.png'
-updated: ''
+updated: 2025-12-26T02:56:03.666Z
 tags:
+  - Archive
   - Linux
   - Server
   - Tools
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'linux-server'
 ---
 # 1. 基本信息

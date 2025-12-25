@@ -1,14 +1,15 @@
 ---
+import CalendarIcon from '@/assets/icons/calendar-icon.svg'
 import { themeConfig } from '@/config'
+
 import { isPostPage } from '@/utils/page'
 
 interface Props {
   date: Date
   updatedDate?: Date
-  minutes: number
 }
 
-const { date, updatedDate, minutes } = Astro.props
+const { date, updatedDate } = Astro.props
 const format = themeConfig.global.dateFormat
 const isPost = isPostPage(Astro.url.pathname)
 const timeSpacingClass = isPost ? 'ml-1.75' : 'ml-1.5'
@@ -33,13 +34,13 @@ function formatDate(date: Date, format: 'YYYY-MM-DD' | 'MM-DD-YYYY' | 'DD-MM-YYY
     case 'DD-MM-YYYY':
       return date.toLocaleDateString('en-GB', options).replace(/\//g, '-')
 
-    // US month text format: Apr 13 2025
+    // US month text format: Apr 13, 2025
     case 'MONTH DAY YYYY':
       return date.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'short',
         day: 'numeric',
-      }).replace(',', '')
+      })
 
     // British month text format: 13 Apr 2025
     case 'DAY MONTH YYYY':
@@ -57,7 +58,12 @@ function formatDate(date: Date, format: 'YYYY-MM-DD' | 'MM-DD-YYYY' | 'DD-MM-YYY
 ---
 
 <!-- published date -->
-<time datetime={date.toISOString().split('T')[0]}>
+<time datetime={date.toISOString().split('T')[0]} class="inline-flex items-center">
+  <CalendarIcon
+    aria-hidden="true"
+    class="mr-1 h-3.5 w-3.5"
+    fill="currentColor"
+  />
   {formatDate(date, format)}
 </time>
 
@@ -70,8 +76,3 @@ function formatDate(date: Date, format: 'YYYY-MM-DD' | 'MM-DD-YYYY' | 'DD-MM-YYY
     updated {formatDate(updatedDate, format)}
   </time>
 )}
-
-<!-- reading time -->
-<span class={timeSpacingClass}>
-  {minutes} min
-</span>

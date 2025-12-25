@@ -1,7 +1,13 @@
 ---
 import type { CollectionEntry } from 'astro:content'
+import ArchiveIcon from '@/assets/icons/archive-icon.svg'
+import ResearchIcon from '@/assets/icons/llms-icon.svg'
+import MusicIcon from '@/assets/icons/music-icon.svg'
 import PinIcon from '@/assets/icons/pin-icon.svg'
+import QuoteIcon from '@/assets/icons/quote-icon.svg'
+import RecordingIcon from '@/assets/icons/recording-icon.svg'
 import PostDate from '@/components/PostDate.astro'
+import PostReadingTime from '@/components/PostReadingTime.astro'
 import { defaultLocale } from '@/config'
 import { getListAbstract } from '@/utils/description'
 import { isHomePage } from '@/utils/page'
@@ -30,12 +36,41 @@ function getPostPath(post: Post) {
 
   return `/${lang}/posts/${slug}/`
 }
+
+function getTagIcon(tag: string) {
+  const normalizedTag = tag.toLowerCase()
+  if (normalizedTag === 'archive')
+return ArchiveIcon
+  if (normalizedTag === 'music')
+return MusicIcon
+  if (normalizedTag === 'recording')
+return RecordingIcon
+  if (normalizedTag === 'research')
+return ResearchIcon
+  return null
+}
 ---
 
 <ul>
   {
-    posts.map(post => (
+    posts.map((post) => {
+      const firstTag = post.data.tags && post.data.tags.length > 0 ? post.data.tags[0] : null
+      const TagIcon = firstTag ? getTagIcon(firstTag) : null
+      return (
       <li class="mb-5.5" lg={isHome ? 'mb-10' : ''}>
+        {/* first tag */}
+        {firstTag && (
+          <span class="float-right ml-2 inline-flex items-center gap-1 rounded-xl bg-secondary/2 px-2.5 py-0.5 text-3 c-secondary shadow-sm ring-1 ring-secondary/10 ring-inset dark:bg-secondary/10 dark:text-gray-300 dark:ring-white/10">
+            {TagIcon && (
+              <TagIcon
+                aria-hidden="true"
+                class="h-3.5 w-3.5"
+                fill="currentColor"
+              />
+            )}
+            <span>{firstTag}</span>
+          </span>
+        )}
         {/* post title */}
         <h3 class="inline transition-colors hover:c-primary">
           <a
@@ -65,6 +100,8 @@ function getPostPath(post: Post) {
         >
           <PostDate
             date={post.data.published}
+          />
+          <PostReadingTime
             minutes={post.remarkPluginFrontmatter.minutes}
           />
         </div>
@@ -73,6 +110,8 @@ function getPostPath(post: Post) {
         <div class="hidden text-3.65 font-time lg:(ml-2.5 inline)">
           <PostDate
             date={post.data.published}
+          />
+          <PostReadingTime
             minutes={post.remarkPluginFrontmatter.minutes}
           />
         </div>
@@ -100,11 +139,19 @@ function getPostPath(post: Post) {
               </a>
             )}
             <div class="heti hidden" lg="mt-2.25 block">
-              <p>{getListAbstract(post)}</p>
+              <p>
+                <QuoteIcon
+                  aria-hidden="true"
+                  class="mr-2 inline-block aspect-square w-1em translate-y--0.1em text-gray-500 dark:text-gray-400"
+                  fill="currentColor"
+                />
+                {getListAbstract(post)}
+              </p>
             </div>
           </div>
         )}
       </li>
-    ))
+    )
+    })
   }
 </ul>

@@ -29,7 +29,8 @@ lang: ja
 
 コードは主に GitHub で公開しています。
 - [GitHub プロフィール](https://github.com/Lonely0710)
-- [学部課程の実験・課題まとめ](https://github.com/Lonely0710/CS-Undergrad-Labs)
+- **学部課程の実験・課題まとめ**
+::github{repo="Lonely0710/CS-Undergrad-Labs"}
 
 交流やディスカッションをご希望の方は、ぜひ [メール](mailto:lingsou43@gmail.com) でご連絡ください。分野を問わず、さまざまな方とお話しできるのを楽しみにしています。確認次第、できるだけ早く返信します。
 

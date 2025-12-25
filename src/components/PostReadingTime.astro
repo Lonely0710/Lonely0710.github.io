@@ -1,0 +1,22 @@
+---
+import TimeIcon from '@/assets/icons/time-icon.svg'
+
+import { isPostPage } from '@/utils/page'
+
+interface Props {
+  minutes: number
+}
+
+const { minutes } = Astro.props
+const isPost = isPostPage(Astro.url.pathname)
+const timeSpacingClass = isPost ? 'ml-1.75' : 'ml-1.5'
+---
+
+<span class={`${timeSpacingClass} inline-flex items-center`}>
+  <TimeIcon
+    aria-hidden="true"
+    class="mr-1 h-3.5 w-3.5"
+    fill="currentColor"
+  />
+  {minutes} min
+</span>

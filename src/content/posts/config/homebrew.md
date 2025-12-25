@@ -1,17 +1,18 @@
 ---
-title: Homebrew安装
+title: Homebrew Installation | Archive
 published: 2025-10-30T07:37:16.828Z
 description: ''
-abstract: 'Linux下安装Homebrew。'
+abstract: 'Linux 下安装 Homebrew'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162158085.png'
-updated: ''
+updated: 2025-12-26T02:58:03.666Z
 tags:
+  - Archive
   - Linux
   - Homebrew
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'homebrew'
 ---
 ![_image.png](https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162213220.png)

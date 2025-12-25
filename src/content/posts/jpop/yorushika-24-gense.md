@@ -1,17 +1,18 @@
 ---
-title: ヨルシカ 2024 Zense Live
+title: ヨルシカ 2024 Zense Live | Thoughts
 published: 2025-07-23T07:35:38.863Z
 description: ''
 updated: ''
-abstract: 'ヨルシカ 2024《前世》Live 个人观演记录，以分章节形式回顾整场演出。'
+abstract: 'ヨルシカ 2024《前世》Live 个人观演记录'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202510180024922.avif'
 tags:
+  - Music
   - Jpop
   - ヨルシカ
 draft: false
 pin: 2
 toc: true
-lang: zh
+lang: ''
 abbrlink: yorshika-24-gense
 ---
 ::bilibili{id="BV1r3KuztEPy"}

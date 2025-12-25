@@ -30,7 +30,8 @@ This blog is more like a **personal space** for me — a place to leave traces o
 
 Most of my code is hosted on GitHub:
 - [GitHub Profile](https://github.com/Lonely0710)
-- [Undergraduate Labs & Course Projects](https://github.com/Lonely0710/CS-Undergrad-Labs)
+- **Undergraduate Labs & Course Projects**
+::github{repo="Lonely0710/CS-Undergrad-Labs"}
 
 If you’d like to connect or discuss ideas, feel free to reach out via [email](mailto:lingsou43@gmail.com). Feel free to contact me~
 

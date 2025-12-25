@@ -1,17 +1,18 @@
 ---
-title: Neovim主题配置
+title: Neovim Theme Config | Archive
 published: 2025-10-30T06:52:43.526Z
 description: ''
-abstract: 'Neovim主题配置存档。'
+abstract: 'Neovim 主题配置'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162327939.png'
 updated: ''
 tags:
+  - Archive
   - Linux
   - Neovim
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'neovim'
 ---
 参考视频：[自从用了Neovim 鼠标我已经扔了]( https://www.bilibili.com/video/BV1TJCvYFE2T/?share_source=copy_web&vd_source=bb345d1b6d774cfe2e8d6229f474eb57)

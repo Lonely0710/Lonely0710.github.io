@@ -2,15 +2,16 @@
 title: Linux Guideline
 published: 2025-10-30T07:58:00.657Z
 description: ''
-abstract: '🧭Linux使用指南'
+abstract: 'Linux 使用指南（自存）'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162327931.png'
 updated: ''
 tags:
+  - Archive
   - Linux
 draft: false
 pin: 3
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'linux-guide'
 ---
 :::note

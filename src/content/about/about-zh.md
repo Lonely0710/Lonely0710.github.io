@@ -27,7 +27,8 @@ lang: zh
 
 代码主要托管在 GitHub：
 - [仓库主页](https://github.com/Lonely0710)
-- [本科课程设计与实验汇总](https://github.com/Lonely0710/CS-Undergrad-Labs)
+- **本科课程设计与实验汇总**
+::github{repo="Lonely0710/CS-Undergrad-Labs"}
 
 如果你想交流、讨论，欢迎通过[邮件](lingsou43@gmail.com)联系我。Feel free to contact me~
 

@@ -1,15 +1,18 @@
 ---
-title: J-pop 中最难忘的
+title: Most Memorable in J-pop | Thoughts
 published: 2025-01-29T07:35:38.863Z
 description: ''
-abstract: '选了些让我反复回味的 J-pop 片段：风花雪月、生离死别、山川草木、爱耻悲忧。'
+abstract: 'J-pop: 風花雪月、生離死別、山河草木、愛恥悲憂'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202501300101311.png'
-updated: ''
+updated: 2025-12-26T02:56:03.666Z
 tags:
+  - Music
   - Jpop
   - ヨルシカ
   - Official髭男dism
   - ずっと真夜中でいいのに。
+toc: true
+lang: zh
 ---
 > [!NOTE]**前言**
 > -  xhs 刷到日音人的小总结，顿觉有意思，遂记录之。2025.1.29 01\:05

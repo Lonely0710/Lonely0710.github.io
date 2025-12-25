@@ -1,17 +1,18 @@
 ---
-title: Oh-my-zsh配置
+title: Oh-my-zsh Config | Archive
 published: 2025-10-30T06:36:36.878Z
 description: ''
-abstract: 'Oh-my-zsh配置存档。'
+abstract: 'Oh-my-zsh 配置'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202502092217168.png'
 updated: ''
 tags:
+  - Archive
   - oh-my-zsh
   - Linux
 draft: false
 pin: 0
 toc: true
-lang: ''
+lang: zh
 abbrlink: 'oh-my-zsh'
 ---
 # 1 说明

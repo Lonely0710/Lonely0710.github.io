@@ -1,21 +1,32 @@
 ---
 import { getTagPath } from '@/i18n/path'
 
+interface Tag {
+  name: string
+  count?: number
+}
+
 interface Props {
-  tags: string[]
+  tags: (string | Tag)[]
   currentTag?: string
   lang: string
 }
 
-const { tags, currentTag = '', lang } = Astro.props;
+const { tags, currentTag = '', lang } = Astro.props
+
+const normalizedTags = tags.map((tag) => {
+  if (typeof tag === 'string')
+return { name: tag, count: undefined }
+  return tag
+})
 ---
 
 <div class="no-heti flex flex-wrap gap-x-3 gap-y-3.2">
-  {tags.map(tag => (
+  {normalizedTags.map(tag => (
     <a
-      href={getTagPath(tag, lang)}
+      href={getTagPath(tag.name, lang)}
       class:list={[
-        currentTag === tag
+        currentTag === tag.name
           ? 'border-secondary/80 c-primary font-medium ring-0.2'
           : 'ring-0',
           'relative inline-block border border-secondary/25 rounded-full px-3.2 py-0.7 ring-secondary/80',
@@ -23,13 +34,15 @@ const { tags, currentTag = '', lang } = Astro.props;
       ]}
     >
       <span class="absolute inset-0 flex items-center justify-center whitespace-nowrap transition-font-weight">
-        {tag}
+        {tag.name}
+        {tag.count !== undefined && <span class="ml-1 text-0.8em opacity-70">({tag.count})</span>}
       </span>
       <span
         class="inline-block font-medium opacity-0"
         aria-hidden="true"
       >
-        {tag}
+        {tag.name}
+        {tag.count !== undefined && <span class="ml-1 text-0.8em">({tag.count})</span>}
       </span>
     </a>
   ))}
