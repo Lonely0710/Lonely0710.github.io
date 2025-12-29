@@ -57,6 +57,7 @@ export interface ThemeConfig {
       emoji?: string[]
       search?: boolean
       imageUploader?: boolean
+      login?: string
     }
   }
   seo?: {
