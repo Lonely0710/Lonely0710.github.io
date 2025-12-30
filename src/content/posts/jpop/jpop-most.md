@@ -13,6 +13,7 @@ tags:
   - ずっと真夜中でいいのに。
 toc: true
 lang: zh
+abbrlink: j-pop-memorable
 ---
 > [!NOTE]**前言**
 > -  xhs 刷到日音人的小总结，顿觉有意思，遂记录之。2025.1.29 01\:05
