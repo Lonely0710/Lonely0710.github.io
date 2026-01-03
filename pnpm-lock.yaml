@@ -103,8 +103,8 @@ importers:
         specifier: 66.3.3
         version: 66.3.3
       '@unocss/reset':
-        specifier: 66.5.11
-        version: 66.5.11
+        specifier: 66.5.12
+        version: 66.5.12
       astro-eslint-parser:
         specifier: ^1.2.2
         version: 1.2.2
@@ -1228,8 +1228,8 @@ packages:
   '@unocss/reset@66.3.3':
     resolution: {integrity: sha512-VIeR/mIcCL89/1uA1KM1QCYca4aeIGqEHMTJL1nCD4v+7wk6XhNXhsp5gMIHo+V804SUSmATWaeHTiKpiFu7AQ==}
 
-  '@unocss/reset@66.5.11':
-    resolution: {integrity: sha512-Q7HudqDXj+IG2nUpUPKb70xwKqbyO6Lkf9igyXQ2XUypnqN9WZYm8leEnweBKiBuROrY1E8c+CqnS8bO/vUTNw==}
+  '@unocss/reset@66.5.12':
+    resolution: {integrity: sha512-wGTMu1sXVdxnzAonzHk/yUsyDyGrr8OiXCDSC7pVNep6eXhhf0g85v/Gx9FoAjZRyCppm6ePDWXtWYS8zglfCQ==}
 
   '@unocss/rule-utils@0.63.6':
     resolution: {integrity: sha512-moeDEq5d9mB8gSYeoqHMkXWWekaFFdhg7QCuwwCbxCc+NPMOgGkmfAoafz+y2tdvK7pEuT191RWOiHQ0MkA5oQ==}
@@ -5063,7 +5063,7 @@ snapshots:
 
   '@unocss/reset@66.3.3': {}
 
-  '@unocss/reset@66.5.11': {}
+  '@unocss/reset@66.5.12': {}
 
   '@unocss/rule-utils@0.63.6':
     dependencies:
