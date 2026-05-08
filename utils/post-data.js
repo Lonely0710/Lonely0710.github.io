@@ -11,87 +11,79 @@ import rehypeKatex from 'rehype-katex'
 import rehypeStringify from 'rehype-stringify'
 
 
-export function getSortedPostsData ( relativePath) {
+export function getSortedPostsData(relativePath) {
     const post_folder = path.join(process.cwd(), relativePath)
-    let file_names = fs.readdirSync(post_folder)
+    if (!fs.existsSync(post_folder)) {
+        return []
+    }
+
+    const file_names = fs.readdirSync(post_folder)
 
     const all_posts = file_names.map(file_name => {
-        // remove ".md" from file name to get id
         const id = file_name.replace(/\.md$/, '')
-
-        // read markdown file as string
         const full_path = path.join(post_folder, file_name)
-        let file_content = fs.readFileSync(full_path, 'utf8')
-
-        // use gray-matter to parse the post metadata section
+        const file_content = fs.readFileSync(full_path, 'utf8')
         const matterResult = matter(file_content)
-        let trim = (matterResult.content.length > 1000)?(matterResult.content.substring(0, 1000) + '...'):(matterResult.content)
+        const trim = (matterResult.content.length > 1000) ? (matterResult.content.substring(0, 1000) + '...') : (matterResult.content)
+        const coverpath = get_cover(relativePath, id)
 
-        // get cover image path
-        let coverpath = get_cover(relativePath, id)
-
-        // combine the data with the id
         return {
             id,
             coverpath,
             text: String(trim)
-                .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // remove links
-                .replace(/!\[([^\]]+)\]\([^)]+\)/g, '$1') // remove images
-                .replace(/[^A-Za-z0-9 ,.]/g, ' '), // remove special characters
+                .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+                .replace(/!\[([^\]]+)\]\([^)]+\)/g, '$1')
+                .replace(/[^A-Za-z0-9 ,.]/g, ' '),
             ...matterResult.data
         }
     })
 
-    // sort posts by date
-    let sorted_posts = all_posts.sort((a, b) => {
+    return all_posts.sort((a, b) => {
         if (a.date < b.date) {
             return 1
-        } else {
-            return -1
+        }
+        return -1
+    })
+}
+
+export function getAllPostIds(relativePath) {
+    const post_folder = path.join(process.cwd(), relativePath)
+    if (!fs.existsSync(post_folder)) {
+        return []
+    }
+
+    const file_names = fs.readdirSync(post_folder)
+    return file_names.map(file_name => {
+        return {
+            params: {
+                id: file_name.replace(/\.md$/, '')
+            }
         }
     })
-    
-    return sorted_posts
 }
 
-export function getAllPostIds ( relativePath ) {
-    const post_folder = path.join(process.cwd(), relativePath)
-    const file_names = fs.readdirSync(post_folder)
-        return file_names.map(file_name => {
-            return {
-                params: {
-                    id: file_name.replace(/\.md$/, '')
-                }
-            }
-    })
-}
+export async function getPostData(id, relativePath) {
+    const postPath = path.join(process.cwd(), relativePath, `${id}.md`)
+    if (!fs.existsSync(postPath)) {
+        return null
+    }
 
-export async function getPostData ( id, relativePath) {
-    // read post content
-    const file_content = fs.readFileSync(
-        path.join(process.cwd(), relativePath, `${id}.md`),
-        'utf8',
-        )
-
-    // use gray-matter to parse the post metadata section
+    const file_content = fs.readFileSync(postPath, 'utf8')
     const matterResult = matter(file_content)
 
     const file = await unified()
-        .use(remarkParse)  // parse markdown
+        .use(remarkParse)
         .use(remarkBreaks)
-        .use(remarkGfm)  // parse GitHub Flavored Markdown
-        .use(remarkMath)  // parse LaTeX equations
-        .use(remarkRehype)  // convert markdown to HTML
-        .use(rehypeKatex)  // convert LaTeX to HTML
-        .use(rehypeStringify)  // convert HTML to string
+        .use(remarkGfm)
+        .use(remarkMath)
+        .use(remarkRehype)
+        .use(rehypeKatex)
+        .use(rehypeStringify)
         .process(matterResult.content)
 
     const content = String(file)
+    const coverpath = get_cover(relativePath, id)
 
-    // get cover image path
-    let coverpath = get_cover(relativePath, id)
-
-    // combine the data with the id and contentHtml
     return {
         id,
         content,
@@ -100,14 +92,13 @@ export async function getPostData ( id, relativePath) {
     }
 }
 
-function get_cover( relativePath, id ) {
+function get_cover(relativePath, id) {
     let coverpath = ''
     let photo_base_path = ''
-    let cover_folder = relativePath.replace('contents/', 'public/cover/')
+    const cover_folder = relativePath.replace('contents/', 'public/cover/')
 
-    for (let format of ['.png', '.jpg', '.jpeg', '.gif']) {
+    for (const format of ['.png', '.jpg', '.jpeg', '.gif']) {
         if (fs.existsSync(path.join(process.cwd(), cover_folder, `${id}${format}`))) {
-            // photo_base_path = cover_folder.replace('public/', 'https://liu-qilong.github.io/')
             photo_base_path = cover_folder.replace('public/', '/')
             coverpath = `${photo_base_path}/${id}${format}`
             break
