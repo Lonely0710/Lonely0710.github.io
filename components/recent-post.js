@@ -45,7 +45,7 @@ export default function RecentPost({ type, posts, maxnum }) {
     return (
         <div className="rounded-lg mb-6 p-6 ring-1 ring-slate-900/5 shadow-lg">
             <Link href={"/" + type}>
-                <div className="text-lg font-semibold text-slate-500 hover:bg-slate-100">{title}</div>
+                <div className="text-xl font-semibold text-slate-600 hover:bg-slate-100">{title}</div>
             </Link>
             <hr className="mt-3 mb-2"></hr>
             <div>

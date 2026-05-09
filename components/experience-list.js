@@ -3,8 +3,8 @@ import Image from 'next/image'
 const experiences = [
     {
         school: 'Hangzhou Institute for Advanced Study, UCAS',
-        period: 'Sep 2026 - Now',
-        degree: 'M.Eng. in Artificial Intelligence',
+        period: 'Sep 2026 - ',
+        degree: 'M.E. in Artificial Intelligence',
         logo: '/cover/experience/UCAS-logo.png',
     },
     {
@@ -18,7 +18,7 @@ const experiences = [
 export default function ExperienceList() {
     return (
         <div className="rounded-lg mb-6 p-6 ring-1 ring-slate-900/5 shadow-lg">
-            <div className="text-lg font-semibold text-slate-600">Experience</div>
+            <div className="text-xl font-semibold text-slate-600">Experience</div>
             <hr className="mt-3 mb-2"></hr>
 
             <div className="space-y-3">
@@ -35,7 +35,7 @@ export default function ExperienceList() {
                             />
                         </div>
                         <div className="leading-snug">
-                            <div className="font-serif text-sm md:text-base font-medium mb-1 text-slate-800">{item.school}</div>
+                            <div className="text-sm md:text-base font-medium mb-1 text-slate-800">{item.school}</div>
                             <div className="text-xs text-slate-700">{item.period}</div>
                             <div className="text-xs text-slate-700">{item.degree}</div>
                         </div>

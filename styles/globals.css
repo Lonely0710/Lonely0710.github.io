@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 
+html {
+  font-size: 18px;
+}
+
 body {
-  @apply font-serif text-slate-800 hyphens-auto
+  @apply text-slate-800
 }
 
 .content {
@@ -26,7 +30,7 @@ h1 {
 }
 
 h2 {
-  @apply before:content-["#"] hover:bg-slate-100 text-slate-500 mt-10 mb-5 border-b text-2xl md:text-3xl
+  @apply before:content-["#"] hover:bg-slate-100 font-serif text-blue-950 mt-10 mb-5 border-b text-2xl md:text-3xl
 }
 
 h2 code {
@@ -66,11 +70,67 @@ h6 code {
 }
 
 p {
-  @apply mt-5 text-justify
+  @apply mt-5 text-left
+}
+
+.contact-line {
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.contact-chat {
+  text-wrap: pretty;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.04rem 0.5rem;
+  border-radius: 0.45rem;
+  color: #fff !important;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.pill-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  line-height: 1.05;
+}
+
+.pill:hover {
+  filter: brightness(0.95);
+}
+
+.pill-mail {
+  background: #2f73da;
+}
+
+.pill-wechat {
+  background: #20c26b;
+}
+
+.pill-icon {
+  width: 1.1em;
+  height: 1.1em;
+  line-height: 1;
+}
+
+.pill-mail .pill-icon,
+.pill-wechat .pill-icon {
+  filter: brightness(0) invert(1);
+}
+
+.icon-unify-color {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(26%) saturate(604%) hue-rotate(180deg) brightness(94%) contrast(91%);
 }
 
 a {
-  @apply text-slate-500 hover:bg-slate-100
+  @apply text-slate-400 hover:bg-slate-100
 }
 
 blockquote {
