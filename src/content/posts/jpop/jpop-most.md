@@ -6,8 +6,9 @@ abstract: 'J-pop: 風花雪月、生離死別、山河草木、愛恥悲憂'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202501300101311.png'
 updated: 2025-12-26T02:56:03.666Z
 tags:
+  - Culture
   - Music
-  - Jpop
+  - JPOP
   - ヨルシカ
   - Official髭男dism
   - ずっと真夜中でいいのに。

@@ -9,7 +9,7 @@ tags:
   - Archive
   - Linux
   - Server
-  - Tools
+  - Tooling
 draft: false
 pin: 0
 toc: true

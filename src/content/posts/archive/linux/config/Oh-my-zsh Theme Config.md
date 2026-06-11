@@ -7,8 +7,9 @@ cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202502092217168.p
 updated: ''
 tags:
   - Archive
-  - oh-my-zsh
   - Linux
+  - Software
+  - Oh-my-zsh
 draft: false
 pin: 0
 toc: true

@@ -6,10 +6,11 @@ abstract: 'Orbstack 学习使用小记'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503170029023.png'
 updated: 2025-12-26T02:56:03.666Z
 tags:
-  - Recording
+  - Archive
   - Linux
+  - Software
   - Orbstack
-  - Tools
+  - Tooling
 draft: false
 pin: 0
 toc: true

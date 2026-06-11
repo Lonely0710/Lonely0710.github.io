@@ -25,3 +25,4 @@ pnpm-debug.log*
 !.vscode/extensions.json
 !.vscode/settings.json
 pnpm-lock.yaml
+AGENTS.md

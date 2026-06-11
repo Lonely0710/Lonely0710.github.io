@@ -6,7 +6,8 @@ const { author } = themeConfig.site
 const { links: socialLinks, startYear } = themeConfig.footer
 
 const currentYear = new Date().getFullYear()
-const year = Number(startYear) === currentYear ? startYear : `${startYear}-${currentYear}`
+const normalizedStartYear = Number(startYear)
+const year = normalizedStartYear >= currentYear ? currentYear : `${normalizedStartYear}-${currentYear}`
 
 // i18n RSS Feed Path
 const currentLang = getLangFromPath(Astro.url.pathname)
@@ -38,10 +39,19 @@ const footerLinkClass = 'highlight-hover py-0.8 transition-colors after:bottom-0
   </p>
 
   <p>
-    © {year} {author}
+    © <span id="footer-year" data-start-year={startYear}>{year}</span> {author}
   </p>
 
   <p>
     Powered by <a class={footerLinkClass} href="https://astro.build/" target="_blank" rel="noopener noreferrer">Astro</a> and <a class={footerLinkClass} href="https://github.com/radishzzz/astro-theme-retypeset" target="_blank" rel="noopener noreferrer">Retypeset</a>
   </p>
 </footer>
+
+<script is:inline>
+  const footerYear = document.getElementById('footer-year')
+  if (footerYear) {
+    const startYear = Number(footerYear.dataset.startYear)
+    const currentYear = new Date().getFullYear()
+    footerYear.textContent = startYear >= currentYear ? String(currentYear) : `${startYear}-${currentYear}`
+  }
+</script>

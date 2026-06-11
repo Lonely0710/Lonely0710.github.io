@@ -6,7 +6,8 @@ abstract: 'Neovim 学习记录'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202503162327916.png'
 updated: ''
 tags:
-  - Recording
+  - Archive
+  - Linux
   - Neovim
 draft: false
 pin: 0

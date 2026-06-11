@@ -12,7 +12,7 @@ lang: zh
 
 > `Lonely` 这个名字和我的本名发音相近，最初是朋友们的称呼，久而久之就成为了我在网络与技术社区中一直沿用的名字。
 
-目前是 [北京交通大学](https://cs.bjtu.edu.cn/) 计算机学院本科生，已推免至 [杭州高等研究院](http://hias.ucas.ac.cn/znkxyjs/index.htm) 智能学院。
+目前是 [北京交通大学](https://cs.bjtu.edu.cn/) 计算机学院本科生，已推免至 [国科大杭州高等研究院](http://hias.ucas.ac.cn/znkxyjs/index.htm) 智能学院。
 
 主要从事 LLM Agent 方向的研究，关注其推理策略、记忆与规划机制，以及面向真实场景的系统实现问题。
 

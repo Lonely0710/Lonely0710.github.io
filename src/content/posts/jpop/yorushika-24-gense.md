@@ -6,8 +6,9 @@ updated: ''
 abstract: 'ヨルシカ 2024《前世》Live 个人观演记录'
 cover: 'https://lonelynotes-images.oss-cn-beijing.aliyuncs.com/202510180024922.avif'
 tags:
+  - Culture
   - Music
-  - Jpop
+  - JPOP
   - ヨルシカ
 draft: false
 pin: 2

@@ -8,6 +8,7 @@ updated: 2025-12-26T02:58:03.666Z
 tags:
   - Archive
   - Linux
+  - Software
   - Homebrew
 draft: false
 pin: 0
