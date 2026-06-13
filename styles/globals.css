@@ -15,6 +15,10 @@ body {
   box-shadow: inset 1px 0px 20px 0px rgb(0 0 0 / 0.05);
 }
 
+.profile-name {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 @media (min-width: 768px) {
   .content {
     max-width: 66%;
@@ -30,7 +34,7 @@ h1 {
 }
 
 h2 {
-  @apply before:content-["#"] hover:bg-slate-100 font-serif text-blue-950 mt-10 mb-5 border-b text-2xl md:text-3xl
+  @apply before:content-["#"] hover:bg-slate-100 font-serif font-semibold text-blue-950 mt-10 mb-5 border-b text-2xl md:text-3xl
 }
 
 h2 code {
@@ -84,49 +88,195 @@ p {
   text-wrap: pretty;
 }
 
-.pill {
-  display: inline-block;
-  padding: 0.04rem 0.5rem;
-  border-radius: 0.45rem;
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.03rem 0.42rem;
+  border-radius: 0.38rem;
   color: #fff !important;
   text-decoration: none;
   white-space: nowrap;
   vertical-align: middle;
-  line-height: 1;
+  line-height: 1.15;
 }
 
-.pill-inner {
+.contact-pill-inner {
   display: inline-flex;
   align-items: center;
-  gap: 0.32rem;
-  line-height: 1.05;
+  gap: 0.3rem;
+  line-height: 1.2;
 }
 
-.pill:hover {
+.contact-pill:hover {
   filter: brightness(0.95);
 }
 
-.pill-mail {
+.contact-pill-mail {
   background: #2f73da;
 }
 
-.pill-wechat {
+.contact-pill-google {
+  background: linear-gradient(90deg, #4285f4 0%, #34a853 32%, #fbbc05 64%, #ea4335 100%);
+}
+
+.contact-pill-qq {
+  background: #111827;
+}
+
+.contact-pill-edu {
+  background: #8b1e2d;
+}
+
+.contact-pill-wechat {
   background: #20c26b;
 }
 
-.pill-icon {
-  width: 1.1em;
-  height: 1.1em;
+.contact-pill-icon {
+  width: 1em;
+  height: 1em;
   line-height: 1;
 }
 
-.pill-mail .pill-icon,
-.pill-wechat .pill-icon {
+.contact-pill-icon {
   filter: brightness(0) invert(1);
+}
+
+.section-header-link {
+  display: block;
+  text-decoration: none;
+}
+
+.section-header-link:hover {
+  background: transparent;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  width: 100%;
+  gap: 0.55rem;
+  color: rgb(71 85 105);
+}
+
+.section-header-title {
+  flex: 0 1 auto;
+  min-width: 0;
+  font-family: var(--font-eb-garamond), serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.section-header-rule {
+  flex: 1 1 2rem;
+  min-width: 1.5rem;
+  border-top: 2px dotted rgb(203 213 225 / 0.65);
+  transform: translateY(0.06rem);
+}
+
+.section-header-icon {
+  flex: 0 0 auto;
+  margin-left: auto;
+  width: 1.35rem;
+  height: 1.35rem;
+  object-fit: contain;
+}
+
+.section-header-icon-tint {
+  filter: brightness(0) saturate(100%) invert(86%) sepia(11%) saturate(334%) hue-rotate(175deg) brightness(98%) contrast(91%);
+}
+
+@media (max-width: 420px) {
+  .section-header {
+    gap: 0.4rem;
+  }
+
+  .section-header-title {
+    font-size: 1.1rem;
+  }
+
+  .section-header-rule {
+    min-width: 0.75rem;
+  }
+
+  .section-header-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
 }
 
 .icon-unify-color {
   filter: brightness(0) saturate(100%) invert(22%) sepia(26%) saturate(604%) hue-rotate(180deg) brightness(94%) contrast(91%);
+}
+
+.not-found-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  color: rgb(15 23 42);
+  font-family: var(--font-eb-garamond), serif;
+}
+
+.not-found-panel {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 260px);
+  align-items: center;
+  gap: 1rem;
+}
+
+.not-found-code {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.not-found-divider {
+  width: 1px;
+  height: 5rem;
+  background: rgb(148 163 184 / 0.45);
+}
+
+.not-found-content {
+  min-width: 0;
+}
+
+.not-found-illustration {
+  display: block;
+  width: min(260px, 58vw);
+  height: auto;
+  object-fit: contain;
+}
+
+.not-found-message {
+  margin-top: 0.6rem;
+  border-bottom: 1px solid rgb(203 213 225 / 0.65);
+  color: rgb(30 41 59);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+@media (max-width: 520px) {
+  .not-found-panel {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0.65rem;
+    text-align: center;
+  }
+
+  .not-found-divider {
+    width: min(10rem, 55vw);
+    height: 1px;
+  }
+
+  .not-found-message {
+    text-align: center;
+  }
 }
 
 a {

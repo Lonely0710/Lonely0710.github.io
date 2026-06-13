@@ -1,16 +1,16 @@
 import Link from 'next/link'
-import PaperBlock from './post-block/paper-block'
-import ProjectBlock from './post-block/project-block'
-import NoteBlock from './post-block/note-block'
+import PaperCard from '../posts/paper-card'
+import ProjectCard from '../posts/project-card'
+import { SectionHeader } from '../ui'
 
-export default function RecentPost({ type, posts, maxnum }) {
+export default function RecentPosts({ type, posts, maxnum }) {
     let num = 0 // idx of a post
-    const title = type === 'paper' ? 'Publications' : type.slice(0, 1).toUpperCase() + type.slice(1,) + 's'
+    const title = type === 'paper' ? '* Publications' : '* Projects'
+    const icon = type === 'paper' ? '/icon/arxiv-icon.svg' : '/icon/project-card-icon.svg'
 
     var BlockDict = {
-        "paper": PaperBlock,
-        "project": ProjectBlock,
-        "note": NoteBlock,
+        "paper": PaperCard,
+        "project": ProjectCard,
     }
     let BlockType = BlockDict[type]
 
@@ -44,8 +44,8 @@ export default function RecentPost({ type, posts, maxnum }) {
 
     return (
         <div className="rounded-lg mb-6 p-6 ring-1 ring-slate-900/5 shadow-lg">
-            <Link href={"/" + type}>
-                <div className="text-xl font-semibold text-slate-600 hover:bg-slate-100">{title}</div>
+            <Link href={"/" + type} className="section-header-link">
+                <SectionHeader title={title} icon={icon} preserveIconColor={type === 'paper'} />
             </Link>
             <hr className="mt-3 mb-2"></hr>
             <div>

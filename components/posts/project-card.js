@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import IconStack from '../icon-stack'
+import IconStack from '../ui/icon-stack'
 
-export default function ProjectBlock ({post, show_abstract=false, divclass="flex flex-col md:flex-row items-center", titleclass="text-sm md:text-base mb-1", abstract_class="text-xs md:text-sm text-slate-700 line-clamp-5", dateclass="text-xs text-slate-700", imgsize=120}) {
+export default function ProjectCard ({post, show_abstract=false, divclass="flex flex-col md:flex-row items-center", titleclass="font-serif font-semibold italic text-sm md:text-base mb-1", abstract_class="text-xs md:text-sm text-slate-700 line-clamp-5", dateclass="text-xs text-slate-700", imgsize=120}) {
     const coverpath = '/cover/project/' + post.id + '.png'
 
     // post link

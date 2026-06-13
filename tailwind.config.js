@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-eb-garamond)', 'serif'],
+        serif: ['var(--font-eb-garamond)', 'serif'],
+        mono: ['var(--font-eb-garamond)', 'serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

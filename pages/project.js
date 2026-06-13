@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import PostIndex from '../components/post-index'
+import { PostIndex } from '../components/posts'
 import { getSortedPostsData } from '../utils/post-data'
 
 export default function Post( {allproject} ) {

@@ -1,16 +1,14 @@
-import Layout from '../components/layout'
-import PaperBlock from './post-block/paper-block'
-import ProjectBlock from './post-block/project-block'
-import NoteBlock from './post-block/note-block'
+import SiteLayout from '../layout'
+import PaperCard from './paper-card'
+import ProjectCard from './project-card'
 
 export default function PostIndex({ type, allpost }) {
     let year = "0000" // year
     let total = Object.keys(allpost).length // total number of papers
 
     var BlockDict = {
-        "paper": PaperBlock,
-        "project": ProjectBlock,
-        "note": NoteBlock,
+        "paper": PaperCard,
+        "project": ProjectCard,
     }
     let BlockType = BlockDict[type]
 
@@ -47,9 +45,9 @@ export default function PostIndex({ type, allpost }) {
     )
 
     return (
-        <Layout>
+        <SiteLayout>
             <h2>{type.slice(0, 1).toUpperCase() + type.slice(1,)}s ({total})</h2>
             {index_body}
-        </Layout>
+        </SiteLayout>
     )
 }

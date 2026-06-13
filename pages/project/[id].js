@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Layout from '../../components/layout'
-import ProjectBlock from '../../components/post-block/project-block'
+import SiteLayout from '../../components/layout'
+import { ProjectCard } from '../../components/posts'
 import { getAllPostIds, getPostData } from '../../utils/post-data'
 
 export default function ProjectPage({ post }) {
@@ -13,7 +13,7 @@ export default function ProjectPage({ post }) {
     )
 
     return (
-        <Layout>
+        <SiteLayout>
             <Head>
                 <title>{post.title}</title>
                 <meta property="twitter:card" content="summary"/>
@@ -22,12 +22,12 @@ export default function ProjectPage({ post }) {
                 <meta property="twitter:image" content={`https://me.ylonely.cn${post.coverpath}`}/>
             </Head>
             <div>
-                <ProjectBlock post={post} titleclass="text-2xl md:text-3xl font-medium text-slate-700" dateclass="font-mono text-sm" imgsize="150"/>
+                <ProjectCard post={post} titleclass="font-serif text-2xl md:text-3xl font-semibold italic text-slate-700" dateclass="font-mono text-sm" imgsize="150"/>
                 <hr className="mt-5"></hr>
                 <div dangerouslySetInnerHTML={{ __html: post.content }}/>
             </div>
             {update}
-        </Layout>
+        </SiteLayout>
     )
 }
 

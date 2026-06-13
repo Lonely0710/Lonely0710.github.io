@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { SectionHeader } from '../ui'
 
 const experiences = [
     {
@@ -18,7 +19,7 @@ const experiences = [
 export default function ExperienceList() {
     return (
         <div className="rounded-lg mb-6 p-6 ring-1 ring-slate-900/5 shadow-lg">
-            <div className="text-xl font-semibold text-slate-600">Experience</div>
+            <SectionHeader title="* Experience" icon="/icon/school-icon.svg" />
             <hr className="mt-3 mb-2"></hr>
 
             <div className="space-y-3">
@@ -37,7 +38,7 @@ export default function ExperienceList() {
                         <div className="leading-snug">
                             <div className="text-sm md:text-base font-medium mb-1 text-slate-800">{item.school}</div>
                             <div className="text-xs text-slate-700">{item.period}</div>
-                            <div className="text-xs text-slate-700">{item.degree}</div>
+                            <div className="text-xs italic text-slate-700">{item.degree}</div>
                         </div>
                     </div>
                 ))}
