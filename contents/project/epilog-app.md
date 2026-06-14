@@ -1,0 +1,18 @@
+---
+title: "Epilog: Discover, Track, and Curate Screen Stories"
+date: "2025-04 - Now"
+public: true
+description: "Discover, organize, and keep track of movies, TV shows, and anime all in one Flutter app."
+link:
+  github: "https://github.com/Lonely0710/epilog-app-flutter"
+tech:
+  - flutter
+  - apple
+  - android
+  - dart
+  - supabase
+---
+
+Epilog is a Flutter app for discovering, organizing, and tracking movies, TV shows, and anime in one place.
+
+The original native Android implementation is preserved in the `android-legacy` branch.

@@ -36,7 +36,7 @@ export function getSortedPostsData(relativePath) {
                 .replace(/[^A-Za-z0-9 ,.]/g, ' '),
             ...matterResult.data
         }
-    })
+    }).filter(post => post.public === true)
 
     return all_posts.sort((a, b) => {
         if (a.date < b.date) {
@@ -53,7 +53,14 @@ export function getAllPostIds(relativePath) {
     }
 
     const file_names = fs.readdirSync(post_folder)
-    return file_names.map(file_name => {
+    return file_names.flatMap(file_name => {
+        const full_path = path.join(post_folder, file_name)
+        const file_content = fs.readFileSync(full_path, 'utf8')
+        const matterResult = matter(file_content)
+        if (matterResult.data.public !== true) {
+            return []
+        }
+
         return {
             params: {
                 id: file_name.replace(/\.md$/, '')
@@ -70,6 +77,9 @@ export async function getPostData(id, relativePath) {
 
     const file_content = fs.readFileSync(postPath, 'utf8')
     const matterResult = matter(file_content)
+    if (matterResult.data.public !== true) {
+        return null
+    }
 
     const file = await unified()
         .use(remarkParse)

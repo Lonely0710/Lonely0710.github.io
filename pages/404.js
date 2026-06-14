@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { miscIcon } from '../components/ui/icon-paths'
 
 export default function NotFound() {
     return (
@@ -14,7 +15,7 @@ export default function NotFound() {
                     <div className="not-found-content">
                         <Image
                             priority
-                            src="/icon/404.svg"
+                            src={miscIcon('404.svg')}
                             width={260}
                             height={110}
                             alt=""

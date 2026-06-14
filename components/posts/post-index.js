@@ -22,7 +22,7 @@ export default function PostIndex({ type, allpost }) {
                 if (post_year !== year) {
                     year = post_year
                     year_heading = (
-                        <div className="text-center mt-10 font-mono text-rose-700">{">>" + year + "<<"}</div>
+                        <div className="profile-name text-center mt-10 text-rose-700 tracking-normal">{">>" + year + "<<"}</div>
                     )
                 }
 

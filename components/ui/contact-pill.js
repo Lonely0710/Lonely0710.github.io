@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { socialIcon } from './icon-paths'
 
 const EMAIL_STYLES = [
     {
@@ -25,14 +26,14 @@ function getContactStyle(type, value) {
     if (type === 'wechat') {
         return {
             className: 'contact-pill-wechat',
-            icon: '/icon/wechat.svg',
+            icon: socialIcon('wechat.svg'),
             href: null,
         }
     }
 
     return {
         className: getEmailClass(value),
-        icon: '/icon/mail.svg',
+        icon: socialIcon('mail.svg'),
         href: `mailto:${value}`,
     }
 }

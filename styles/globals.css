@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "0xProto Nerd Font Mono";
+  src: url("/font/0xProtoNerdFontMono-Regular.ttf") format("truetype");
+  font-display: swap;
+}
 
 html {
   font-size: 18px;
@@ -17,6 +22,10 @@ body {
 
 .profile-name {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.nerd-font {
+  font-family: "0xProto Nerd Font Mono", "Symbols Nerd Font", "Symbols Nerd Font Mono", monospace;
 }
 
 @media (min-width: 768px) {

@@ -8,7 +8,6 @@ export default function SectionHeader({ title, icon, preserveIconColor = false, 
             {showRule ? <span className="section-header-rule" aria-hidden="true" /> : null}
             {showIcon && icon ? (
                 <Image
-                    priority
                     src={icon}
                     width={24}
                     height={24}

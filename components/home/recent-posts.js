@@ -2,11 +2,12 @@ import Link from 'next/link'
 import PaperCard from '../posts/paper-card'
 import ProjectCard from '../posts/project-card'
 import { SectionHeader } from '../ui'
+import { navIcon, sectionIcon } from '../ui/icon-paths'
 
 export default function RecentPosts({ type, posts, maxnum }) {
     let num = 0 // idx of a post
     const title = type === 'paper' ? '* Publications' : '* Projects'
-    const icon = type === 'paper' ? '/icon/arxiv-icon.svg' : '/icon/project-card-icon.svg'
+    const icon = type === 'paper' ? navIcon('paper.svg') : sectionIcon('project-card.svg')
 
     var BlockDict = {
         "paper": PaperCard,

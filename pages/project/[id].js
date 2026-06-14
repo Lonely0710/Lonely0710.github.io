@@ -4,6 +4,10 @@ import { ProjectCard } from '../../components/posts'
 import { getAllPostIds, getPostData } from '../../utils/post-data'
 
 export default function ProjectPage({ post }) {
+    if (!post) {
+        return null
+    }
+
     const update = (post.update != null) ? (
         <div className="italic mt-5 text-right">
             Lastly updated: <span>{post["update"]}</span>
@@ -22,7 +26,7 @@ export default function ProjectPage({ post }) {
                 <meta property="twitter:image" content={`https://me.ylonely.cn${post.coverpath}`}/>
             </Head>
             <div>
-                <ProjectCard post={post} titleclass="font-serif text-2xl md:text-3xl font-semibold italic text-slate-700" dateclass="font-mono text-sm" imgsize="150"/>
+                <ProjectCard post={post} titleclass="font-serif text-2xl md:text-3xl font-semibold italic text-slate-500" dateclass="font-mono text-sm" imgsize="150"/>
                 <hr className="mt-5"></hr>
                 <div dangerouslySetInnerHTML={{ __html: post.content }}/>
             </div>
